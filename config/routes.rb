@@ -6,7 +6,8 @@ Rails.application.routes.draw do
   get "/team" => "pages#team"
   get "/contact" => "pages#join_us"
 
-resources :products 
+resources :products
+resources :upvotes, only: [ :create, :destroy ] 
 
   # Read action routes
   #get "/products" => "products#index"

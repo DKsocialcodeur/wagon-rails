@@ -95,3 +95,15 @@
 .product-upvote:hover .product-arrow {
   border-bottom: 9px solid #5898f1;
 }
+a.product-upvote {
+  color: black;
+}
+a.product-upvote:hover, a.product-upvote:focus {
+  text-decoration: none;
+}
+.product-upvoted, a.product-upvote.product-upvoted {
+  color: #5898f1;
+}
+.product-upvoted .product-arrow {
+  border-bottom-color: #5898f1;
+}
